@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <!-- <meta http-equiv="refresh" content="0.5">  nie działa idealnie:/-->
+	<meta charset="utf-8">
+	<meta name="description" content="Tu wpisz opis zawartości strony">
+	<title>Chess</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+	
+</head>
+<body>
+    <!-- Plansza i menu -->
+    <div class="sidenav">
+        <div id="board1" style="width: 700px"></div>
+        <script>
+            var board1 = ChessBoard('board1', 'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R');
+        </script> <!-- ChessBoard(nazwa planszy, FEN string) -->
+        <a href="#">Logout</a>
+        <a href="#">Account</a>
+    </div>
+    
+    <!-- Chat -->
+    <div class="main">
+        Tu ma być czat
+    </div>
+</body>
+</html>
